@@ -28,7 +28,7 @@ module.exports = () =>
 
       // the problem occurs when it is pushed an non herbs-entity object
       const nonEntity = { anything: true }
-        order.items.push(nonEntity)
+      // order.items.push(nonEntity)
 
       ctx.ret = order
 
